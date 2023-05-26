@@ -20,6 +20,8 @@ const currencyNames = {
     EUR: ["欧元", "🇪🇺"],
     GBP: ["英镑", "🇬🇧"],
 };
+// 开始提示
+$.notify("开始监控汇率", "", "基准货币：" + currencyNames[base][1] + " " + currencyNames[base][0]);
 
 
 $.http.get({
