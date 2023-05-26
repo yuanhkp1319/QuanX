@@ -22,6 +22,8 @@ const currencyNames = {
 };
 // 开始提示
 $.notify("开始监控汇率", "", "基准货币：" + currencyNames[base][1] + " " + currencyNames[base][0]);
+//这是dev5的修改
+
 
 
 $.http.get({
